@@ -1,0 +1,127 @@
+.u-padding-all-md {
+    padding: 10px;
+}
+
+.u-heading {
+    font-size: 40px;
+}
+
+.u-margin-l-sm {
+    margin-left: 5px;
+}
+
+.u-rules {
+    color: #888;
+    text-align: justify;
+}
+
+.u-product-title {
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 2px #ccc;
+}
+
+.t-test-panels__exercise {
+    overflow: scroll;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.ace_editor {
+    height: 250px;
+}
+
+.t-test-panels__results {
+    height: 150px;
+}
+
+select {
+    padding: 5px;
+    color: #333;
+}
+
+.verify .success {
+  color: #000;
+}
+
+.verify .success.compile-success {
+  color: #0a0;
+}
+
+.verify .error {
+  color: #e00;
+}
+
+.verify .note {
+  font-style: italic;
+    /*    padding-left: 0.5em;    margin-left: 0.5em;    border-left: solid 3px orange;    */;
+}
+
+.verify .code {
+  font-weight: normal;
+  color: #777;
+  white-space: pre-wrap;
+}
+
+.verify .comment {
+  white-space: pre-wrap;
+}
+
+.verify .indent {
+  margin-left: 1.8em;
+}
+
+.verify .section {
+  padding-left: 0.5em;
+  margin-left: 0.5em;
+  border-left: solid 3px black;
+}
+
+.verify .section.has-success {
+  border-left-color: #000;
+}
+
+.verify .section.has-success.has-compile-success {
+  border-left-color: #0a0;
+}
+
+.verify .section.has-error {
+  border-left-color: #e00;
+}
+
+.ClassyCountdown-wrapper {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-left: 1px solid #333;
+}
+
+.ClassyCountdown-wrapper > div {
+    position: relative;
+    width: 35px;
+    margin: 5px 10px;
+    float: left;
+}
+
+.ClassyCountdown-wrapper .ClassyCountdown-value {
+    position: absolute;
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+.ClassyCountdown-days {
+    display: none !important;
+}
+
+.ClassyCountdown-hours,
+.ClassyCountdown-minutes,
+.ClassyCountdown-seconds {
+    height: 30px !important;
+}
+
+.ClassyCountdown-hours > div,
+.ClassyCountdown-minutes > div,
+.ClassyCountdown-seconds > div {
+    display: none !important;
+}

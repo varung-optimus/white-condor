@@ -1,0 +1,84 @@
+<div class="col-lg-12 clearfix">
+    <br />
+    <div class="pull-left">
+        <div class="text-primary u-product-title">
+            <img src="images/logo.png" />
+
+            <strong>White Condor</strong>
+        </div>
+    </div>
+
+    <div class="pull-right">
+        <div class="pull-right">
+            <countdown autostart="true" time="1800" colors="flat-colors-very-wide" callback="finished()"></countdown>
+        </div>
+        <div class="pull-right">
+            <select>
+                <option value="">Select Language</option>
+                <option value="csharp">C#</option>
+            </select>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<div class="col-lg-12 t-test-panels">
+    <div class="col-lg-5 t-test-panels__exercise">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">Task 1</a></li>
+        </ul>
+        <br />
+        <div ng-bind-html="task">
+            <pre>&lt;div ng-bind-html="task"&gt;<br/>&lt;/div&gt;</pre>
+        </div>
+    </div>
+    <div class="col-lg-7">
+        <div ng-model="test.answer" ui-ace="{
+            require: ['ace/ext/language_tools'],
+            advanced: {
+                enableSnippets: true,
+                enableBasicAutocompletion: true,
+                enableLiveAutocompletion: true
+            },
+            useWrapMode : true,
+            showGutter: true,
+            theme:'xcode',
+            mode: 'csharp',
+            firstLineNumber: 1,
+            onLoad: aceLoaded,
+            onChange: aceChanged
+            }"></div>
+        <br />
+        <div class="col-lg-12 text-center">
+            <div class="col-lg-4 text-center">
+                <button type="button" class="btn btn-warning" ng-click="test.run()">
+                            Run
+                            <i class="fa fa-play" />
+                        </button>
+            </div>
+            <div class="col-lg-4 text-center">
+                <button type="button" class="btn btn-success" ng-click="test.submit()">
+                            Submit
+                            <i class="fa fa-paper-plane" />
+                        </button>
+            </div>
+            <div class="col-lg-4 text-center">
+                <button type="button" class="btn btn-danger" ng-click="test.quit()">
+                            Quit
+                            <i class="fa fa-stop" />
+                        </button>
+            </div>
+        </div>
+        <br />
+        <div class="t-test-panels__results col-lg-12">
+            <br />
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div ng-bind-html="result">
+                        <pre>&lt;div ng-bind-html="result"&gt;<br/>&lt;/div&gt;</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

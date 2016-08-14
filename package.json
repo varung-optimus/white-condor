@@ -1,0 +1,16 @@
+{
+  "name": "white-condor",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Interface for users to give challenges",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "bower": "^1.3.1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000"
+  }
+}
