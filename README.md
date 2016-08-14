@@ -1,9 +1,4 @@
-# Exercise 2
-
-Pass data between controllers without using $rootScope
-```
-Search data from home page is shared to search results page
-```
+# White Condor
 
 ### Install Dependencies
 
@@ -32,7 +27,7 @@ this server is:
 npm start
 ```
 
-Now browse to the app at `http://localhost:8000/app/index.html`.
+Now browse to the app at `http://localhost:8000/app/
 
 
 
